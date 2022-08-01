@@ -13,15 +13,14 @@
 // |   LA1   |    Z    |    X    |    C    |    V    |    B    |====================
 // |  CTRL   |   GUI   |   ALT   |  empty  |  SPACE  |         |  empty  |  ENTER  |
 //                                                             |  SHIFT  |   LA1   |
-    bindings =
-    <
-    &kp ESC    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     
-    &kp DEL    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp EQUAL
-    &kp HOME   &kp A      &kp S      &kp D      &kp F      &kp G      &kp LBRACK
-    &kp LA1    &kp Z      &kp X      &kp C      &kp V      &kp B
-    &kp CTRL   &kp GUI    &kp ALT    &none      &kp SPACE             &none      &kp ENTER
-                                                                      &kp SHIFT  &none
-    >;
+            bindings = <
+            &kp ESC    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     
+            &kp DEL    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp EQUAL
+            &kp HOME   &kp A      &kp S      &kp D      &kp F      &kp G      &kp LBRACK
+            &kp LA1    &kp Z      &kp X      &kp C      &kp V      &kp B
+            &kp CTRL   &kp GUI    &kp ALT    &none      &kp SPACE             &none      &kp ENTER
+                                                                              &kp SHIFT  &none
+            >;
         };
     };
 };
