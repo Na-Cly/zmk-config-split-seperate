@@ -1,4 +1,4 @@
-if left_side
+if LEFT_SIDE
 
 config ZMK_KEYBOARD_NAME
     default "left_side"
