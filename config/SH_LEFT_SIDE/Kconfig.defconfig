@@ -1,7 +1,7 @@
 if SH_LEFT_SIDE
 
 config ZMK_KEYBOARD_NAME
-    default "Split keeb left side"
+    default "SH_LEFT_SIDE"
 
 config CONFIG_ZMK_HID_REPORT_TYPE_HKRO
     defualt y
