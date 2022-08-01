@@ -1,7 +1,7 @@
-if SH_LEFT_SIDE
+if left_side
 
 config ZMK_KEYBOARD_NAME
-    default "SH_LEFT_SIDE"
+    default "left_side"
 
 config CONFIG_ZMK_HID_REPORT_TYPE_HKRO
     defualt y
