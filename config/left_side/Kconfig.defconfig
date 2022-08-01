@@ -1,0 +1,12 @@
+if SHIELD_LEFT_SIDE
+
+config ZMK_KEYBOARD_NAME
+    default "Split keeb left side"
+
+config CONFIG_ZMK_HID_REPORT_TYPE_HKRO
+    defualt y
+
+config CONFIG_USB_DEVICE_MANUFACTURER
+    default "CB design's"
+
+endif
