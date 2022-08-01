@@ -1,4 +1,4 @@
-if SHIELD_LEFT_SIDE
+if SH_LEFT_SIDE
 
 config ZMK_KEYBOARD_NAME
     default "Split keeb left side"

@@ -14,4 +14,4 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: SHIELD_LEFT_SIDE
+    shield: SH_LEFT_SIDE
