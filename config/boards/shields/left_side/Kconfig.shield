@@ -1,2 +1,2 @@
-config LEFT_SIDE
+config SHIELD_LEFT_SIDE
     def_bool $(shields_list_contains,left_side)

@@ -1,4 +1,4 @@
-if LEFT_SIDE
+if SHIELD_LEFT_SIDE
 
 config ZMK_KEYBOARD_NAME
     default "left_side"
