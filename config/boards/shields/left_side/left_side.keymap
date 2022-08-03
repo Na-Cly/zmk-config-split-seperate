@@ -3,14 +3,15 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-&left_encoder {
-    status = "okay";
-};
-
 / {
+	sensors {
+		compatible = "zmk,keymap-sensors";
+		sensors = <&encoder_left>;
+	};
+
     keymap {
         compatible = "zmk,keymap"; 
-        
+
         default_layer {
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     
