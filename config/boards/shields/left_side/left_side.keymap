@@ -10,23 +10,25 @@
 / {
     keymap {
         compatible = "zmk,keymap"; 
+        
         default_layer {
-        //==================================================================================
-        // |   ESC   |    1    |    2    |    3    |    4    |    5    |
-        // |   DEL   |    Q    |    W    |    E    |    R    |    T    |   =/+   |
-        // |   TAB   |    A    |    S    |    D    |    F    |    G    |   [{    |
-        // |   LA1   |    Z    |    X    |    C    |    V    |    B    |====================
-        // |  CTRL   |   GUI   |   ALT   |  empty  |  SPACE  |         |  empty  |  ENTER  |
-        //                                                             |  SHIFT  |   LA1   |
-            bindings = <
-            &kp ESC       &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                &kp C_MUTE
-            &kp DEL       &kp Q      &kp W      &kp E      &kp R      &kp T      &kp EQUAL
-            &kp TAB       &kp A      &kp S      &kp D      &kp F      &kp G      &kp LBKT
-            &out OUT_TOG  &kp Z      &kp X      &kp C      &kp V      &kp B
-            &kp LCTRL     &kp LGUI   &kp LALT   &none      &kp SPACE             &none      &kp RET
-                                                                                 &kp LSHIFT &bt BT_CLR
-            >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+    
+//==================================================================================
+// |   ESC   |    1    |    2    |    3    |    4    |    5    |         | mute
+// |   DEL   |    Q    |    W    |    E    |    R    |    T    |   =/+   |
+// |   TAB   |    A    |    S    |    D    |    F    |    G    |   [{    |
+// |   LA1   |    Z    |    X    |    C    |    V    |    B    |====================
+// |  CTRL   |   GUI   |   ALT   |  empty  |  SPACE  |         |  empty  |  ENTER  |
+//                                                             |  SHIFT  |   LA1   |
+            bindings = <
+&kp ESC       &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                &kp C_MUTE
+&kp DEL       &kp Q      &kp W      &kp E      &kp R      &kp T      &kp EQUAL
+&kp TAB       &kp A      &kp S      &kp D      &kp F      &kp G      &kp LBKT
+&out OUT_TOG  &kp Z      &kp X      &kp C      &kp V      &kp B
+&kp LCTRL     &kp LGUI   &kp LALT   &none      &kp SPACE             &none      &kp RET
+                                                                     &kp LSHIFT &bt BT_CLR
+            >;
         };
     };
 };  
